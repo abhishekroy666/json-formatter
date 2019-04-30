@@ -23,7 +23,7 @@ if( !isEmpty(json) ) {
                     '<div class="col-*-*" style="padding:15px;"><button id="expand-all" type="button" class="btn btn-sm btn-info">Expand All</button></div>'+
                     '<div class="col-*-*" style="padding:15px;"><button id="collapse-all" type="button" class="btn btn-sm btn-info">Collapse All</button></div>'+
                     '</div>'+
-                    '</div><b>{<b>';
+                    '</div><b>{</b>';
     var divs = header + buildHTML(json)+'<b>}</b>';
     $(body).html(divs);
     $(body).css({ 'font-size': '12px',
