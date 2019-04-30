@@ -5,7 +5,7 @@
 	"manifest_version" : 2,
 	"description" : "JSON formatter for Chrome",
 	"icons" : {
-		"128" : "json.png"
+		"128" : "json-logo.png"
 	},
 	"browser_action" : {
 		"default_title" : "JSON Formatter",
